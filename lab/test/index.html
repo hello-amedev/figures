@@ -1,0 +1,73 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex"><title>フリップとルッツの見分けテスト - figures</title><style>:root {
+  --color-ice: #F5F9FC;
+  --color-white: #FFFFFF;
+  --color-navy: #0A1F44;
+  --color-blue: #1F4FE0;
+  --color-aqua: #00C8F0;
+  --color-aqua-text: #007AA3;
+  --color-hairline: rgba(10, 31, 68, 0.12);
+  --color-shadow: rgba(10, 31, 68, 0.16);
+  --color-blue-soft: rgba(31, 79, 224, 0.08);
+  --color-aqua-soft: rgba(0, 200, 240, 0.14);
+  --color-glass: rgba(255, 255, 255, 0.62);
+  --color-glass-edge-top: rgba(255, 255, 255, 0.8);
+  --color-glass-edge-bottom: rgba(255, 255, 255, 0.2);
+  --color-glass-solid: rgba(245, 249, 252, 0.97);
+  --color-shadow-near: rgba(10, 31, 68, 0.12);
+  --color-shadow-far: rgba(10, 31, 68, 0.14);
+  --color-path-text: #7A36F2;
+  --color-correction: #FF4A1C;
+  --color-correction-text: #C2310B;
+  --color-correction-soft: rgba(255, 74, 28, 0.08);
+  --color-flip: #1F4FE0;
+  --color-flip-text: #1F4FE0;
+  --color-lutz: #00C8F0;
+  --color-lutz-text: #007AA3;
+  --font-body: "Outfit Variable", "Zen Kaku Gothic New", sans-serif;
+  --font-mono: "DM Mono", monospace;
+  --motion-duration-sm: 140ms;
+  --motion-duration-md: 240ms;
+  --motion-duration-lg: 340ms;
+  --motion-exit-scale: 0.65;
+  --motion-ease-glide: cubic-bezier(0.16, 1, 0.3, 1);
+  --motion-ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
+  --motion-duration-page-out: 480ms;
+  --motion-duration-page-in: 900ms;
+  --motion-duration-reveal: 1100ms;
+  --motion-duration-panel-morph: 720ms;
+  --motion-duration-cue: 1600ms;
+  --motion-duration-sheet-swap: 420ms;
+  --motion-stagger: 90ms;
+  --color-world-haze: #EEF5FB;
+  --color-world-frost: #D3E3F7;
+  --color-world-frost-aqua: #C8EAF7;
+  --color-world-line-aged: #9AABC4;
+  --color-menu-veil: rgba(247, 250, 253, 0.55);
+  --color-menu-veil-strong: rgba(247, 250, 253, 0.92);
+  --color-text-halo: rgba(249, 252, 254, 0.78);
+  --font-display: "Outfit Variable", "Zen Kaku Gothic New", sans-serif;
+  --motion-stagger: 90ms;
+  --mirror-floor: 66svh;
+  --mirror-floor-portrait: 76svh;
+  --mirror-horizon: 20svh;
+  --mirror-horizon-portrait: 22svh;
+  --fs-kicker: 0.75rem;
+  --fs-label: 0.8125rem;
+  --fs-note: 0.9375rem;
+}
+@media (max-aspect-ratio: 1/1) {
+  :root {
+    --fs-label: 0.75rem;
+    --fs-note: 0.875rem;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}</style><link rel="stylesheet" href="/figures/_astro/fonts.pFZ7jhYb.css"><style>.season-banner[data-astro-cid-q7peatzc]{background:var(--color-navy);color:var(--color-white);flex-wrap:wrap;align-items:baseline;gap:.25rem .75rem;padding:.4rem 1.25rem;font-size:.8125rem;display:flex}.season-banner-text[data-astro-cid-q7peatzc],.season-banner-update[data-astro-cid-q7peatzc]{margin:0}.season-banner-update[data-astro-cid-q7peatzc] a[data-astro-cid-q7peatzc]{color:var(--color-white);text-decoration-color:var(--color-aqua)}
+</style><link rel="stylesheet" href="/figures/_astro/index.CylfLTyw.css"><style>.glass-surface{background:linear-gradient(var(--color-glass), var(--color-glass)) padding-box, linear-gradient(180deg, var(--color-glass-edge-top), var(--color-glass-edge-bottom)) border-box;-webkit-backdrop-filter:blur(20px)saturate(1.5);box-shadow:inset 0 1px 0 var(--color-glass-edge-top), 0 1px 2px var(--color-shadow-near), 0 1rem 2.4rem -1.2rem var(--color-shadow-far);border:1px solid #0000;border-radius:999px}@supports not (backdrop-filter:blur(1px)){.glass-surface{background:linear-gradient(var(--color-glass-solid), var(--color-glass-solid)) padding-box, linear-gradient(180deg, var(--color-glass-edge-top), var(--color-glass-edge-bottom)) border-box}}@media (prefers-reduced-transparency:reduce){.glass-surface{-webkit-backdrop-filter:none;background:linear-gradient(var(--color-glass-solid), var(--color-glass-solid)) padding-box, linear-gradient(180deg, var(--color-glass-edge-top), var(--color-glass-edge-bottom)) border-box}}.glass-surface button{font:inherit;color:var(--color-navy);cursor:pointer;transition:background-color var(--motion-duration-sm) var(--motion-ease-standard), color var(--motion-duration-sm) var(--motion-ease-standard);background:0 0;border:0;border-radius:999px;font-size:.8rem}.glass-surface button:hover{background:var(--color-white)}.glass-surface button[aria-pressed=true]{background:var(--color-navy);color:var(--color-white)}.glass-surface button:focus-visible{outline:2px solid var(--color-blue);outline-offset:2px}
+</style></head><body><div class="season-banner" id="season-banner" data-cutoff="2027-07-01T00:00:00.000Z" data-astro-cid-q7peatzc><p class="season-banner-text" data-astro-cid-q7peatzc>2026-27シーズンのルールに基づく</p><p class="season-banner-update" hidden data-astro-cid-q7peatzc>最新のルールはISUの公式サイトで確認できます。<a href="https://www.isu.org/" rel="noopener noreferrer" data-astro-cid-q7peatzc>ISU公式サイト</a></p></div><script type="module">var e=document.getElementById(`season-banner`),t=e?.dataset.cutoff;e&&t&&Date.now()>=new Date(t).getTime()&&e.querySelector(`.season-banner-update`)?.removeAttribute(`hidden`);</script><style>astro-island,astro-slot,astro-static-slot{display:contents}</style><script>(()=>{var a=(s,i,o)=>{let r=async()=>{await(await s())()},t=typeof i.value=="object"?i.value:void 0,c={rootMargin:t==null?void 0:t.rootMargin},n=new IntersectionObserver(e=>{for(let l of e)if(l.isIntersecting){n.disconnect(),r();break}},c);for(let e of o.children)n.observe(e)};(self.Astro||(self.Astro={})).visible=a;window.dispatchEvent(new Event("astro:visible"));})();</script><script>(()=>{var g=Object.defineProperty;var w=(a,s,c)=>s in a?g(a,s,{enumerable:!0,configurable:!0,writable:!0,value:c}):a[s]=c;var l=(a,s,c)=>w(a,typeof s!="symbol"?s+"":s,c);var E=new Set(["__proto__","constructor","prototype"]);{let a={0:t=>y(t),1:t=>c(t),2:t=>new RegExp(t),3:t=>new Date(t),4:t=>new Map(c(t)),5:t=>new Set(c(t)),6:t=>BigInt(t),7:t=>new URL(t),8:t=>new Uint8Array(t),9:t=>new Uint16Array(t),10:t=>new Uint32Array(t),11:t=>Number.POSITIVE_INFINITY*t},s=t=>{let[p,e]=t;return p in a?a[p](e):void 0},c=t=>t.map(s),y=t=>typeof t!="object"||t===null?t:Object.fromEntries(Object.entries(t).map(([p,e])=>[p,s(e)]));class f extends HTMLElement{constructor(){super(...arguments);l(this,"Component");l(this,"hydrator");l(this,"hydrate",async()=>{var b;if(!this.hydrator||!this.isConnected)return;let e=(b=this.parentElement)==null?void 0:b.closest("astro-island[ssr]");if(e){e.addEventListener("astro:hydrate",this.hydrate,{once:!0});return}let r=this.querySelectorAll("astro-slot"),n={},d=this.querySelectorAll("template[data-astro-template]");for(let o of d){let i=o.closest(this.tagName);i!=null&&i.isSameNode(this)&&(n[o.getAttribute("data-astro-template")||"default"]=o.innerHTML,o.remove())}for(let o of r){let i=o.closest(this.tagName);i!=null&&i.isSameNode(this)&&(n[o.getAttribute("name")||"default"]=o.innerHTML)}let u;try{u=this.hasAttribute("props")?y(JSON.parse(this.getAttribute("props"))):{}}catch(o){let i=this.getAttribute("component-url")||"<unknown>",v=this.getAttribute("component-export");throw v&&(i+=` (export ${v})`),console.error(`[hydrate] Error parsing props for component ${i}`,this.getAttribute("props"),o),o}let h;await this.hydrator(this)(this.Component,u,n,{client:this.getAttribute("client")}),this.removeAttribute("ssr"),this.dispatchEvent(new CustomEvent("astro:hydrate"))});l(this,"unmount",()=>{this.isConnected||this.dispatchEvent(new CustomEvent("astro:unmount"))})}disconnectedCallback(){document.removeEventListener("astro:after-swap",this.unmount),document.addEventListener("astro:after-swap",this.unmount,{once:!0})}connectedCallback(){if(!this.hasAttribute("await-children")||document.readyState==="interactive"||document.readyState==="complete")this.childrenConnectedCallback();else{let e=()=>{document.removeEventListener("DOMContentLoaded",e),r.disconnect(),this.childrenConnectedCallback()},r=new MutationObserver(()=>{var n;((n=this.lastChild)==null?void 0:n.nodeType)===Node.COMMENT_NODE&&this.lastChild.nodeValue==="astro:end"&&(this.lastChild.remove(),e())});r.observe(this,{childList:!0}),document.addEventListener("DOMContentLoaded",e)}}async childrenConnectedCallback(){let e=this.getAttribute("before-hydration-url");e&&await import(e),this.start()}getRetryImportUrl(e){let r=new URL(e,document.baseURI);return r.searchParams.set("astro-retry",Date.now().toString()),r.toString()}async importWithRetry(e){try{return await import(e)}catch(r){return await new Promise(n=>setTimeout(n,1e3)),import(this.getRetryImportUrl(e))}}handleHydrationError(e){let r=this.getAttribute("component-url"),n=new CustomEvent("astro:hydration-error",{cancelable:!0,bubbles:!0,composed:!0,detail:{error:e,componentUrl:r}});this.dispatchEvent(n)&&console.error(`[astro-island] Error hydrating ${r}`,e)}async start(){let e=JSON.parse(this.getAttribute("opts")),r=this.getAttribute("client");if(Astro[r]===void 0){window.addEventListener(`astro:${r}`,()=>this.start(),{once:!0});return}try{await Astro[r](async()=>{let n=this.getAttribute("renderer-url");try{let[d,{default:u}]=await Promise.all([this.importWithRetry(this.getAttribute("component-url")),n?this.importWithRetry(n):Promise.resolve({default:()=>()=>{}})]),h=this.getAttribute("component-export")||"default";if(h.includes(".")){this.Component=d;for(let m of h.split(".")){if(E.has(m)||!this.Component||typeof this.Component!="object"&&typeof this.Component!="function"||!Object.hasOwn(this.Component,m))throw new Error(`Invalid component export path: ${h}`);this.Component=this.Component[m]}}else{if(E.has(h))throw new Error(`Invalid component export path: ${h}`);this.Component=d[h]}return this.hydrator=u,this.hydrate}catch(d){return this.handleHydrationError(d),()=>{}}},e,this)}catch(n){this.handleHydrationError(n)}}attributeChangedCallback(){this.hydrate()}}l(f,"observedAttributes",["props"]),customElements.get("astro-island")||customElements.define("astro-island",f)}})();</script><astro-island uid="ZG79r7" component-url="/figures/_astro/TestApp.D0gTOV2W.js" component-export="default" renderer-url="/figures/_astro/client.svelte.Df9XARFC.js" props="{&quot;available&quot;:[1,[[0,&quot;flip-c-05&quot;],[0,&quot;flip-c-08&quot;],[0,&quot;flip-c-10&quot;],[0,&quot;flip-d-02&quot;],[0,&quot;flip-d-03&quot;],[0,&quot;lutz-c-02&quot;],[0,&quot;lutz-c-04&quot;],[0,&quot;lutz-c-05&quot;],[0,&quot;lutz-d-07&quot;],[0,&quot;lutz-d-09&quot;],[0,&quot;lutz-d-10&quot;]]]}" ssr client="visible" opts="{&quot;name&quot;:&quot;TestApp&quot;,&quot;value&quot;:true}" await-children><!--[--><section class="test-app svelte-1163ub4 intro"><!--[0--><div class="screen-head svelte-1163ub4" style="order: 0;"><p class="kicker svelte-1163ub4">M2 TEST</p> <h1 class="heading svelte-1163ub4">フリップとルッツを見分ける</h1> <p class="lead svelte-1163ub4">はじめに2つのジャンプを重ねて見比べてから、名前を伏せた問題に答えます。5分ほどかかります。</p></div><!--]--> <div class="stage-frame svelte-t57znn" style="order: 1;"><div class="stage svelte-t57znn compare" style="background-color: #F5F9FC; background-image: url(&quot;data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22480%22%20height%3D%22480%22%20viewBox%3D%220%200%20480%20480%22%3E%3Cfilter%20id%3D%22zg%22%20color-interpolation-filters%3D%22sRGB%22%3E%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.9%22%20numOctaves%3D%222%22%20seed%3D%2222%22%20stitchTiles%3D%22stitch%22%2F%3E%3CfeColorMatrix%20type%3D%22saturate%22%20values%3D%220%22%2F%3E%3CfeColorMatrix%20values%3D%221%200%200%200%200%20%200%201%200%200%200%20%200%200%201%200%200%20%200%200%200%200%200.08%22%2F%3E%3C%2Ffilter%3E%3Crect%20width%3D%22480%22%20height%3D%22480%22%20filter%3D%22url(%23zg)%22%2F%3E%3C%2Fsvg%3E&quot;), url(&quot;data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22zb0%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23FFFFFF%22%20stop-opacity%3D%220.95%22%2F%3E%3Cstop%20offset%3D%220.45%22%20stop-color%3D%22%23FFFFFF%22%20stop-opacity%3D%220.589%22%2F%3E%3Cstop%20offset%3D%220.8%22%20stop-color%3D%22%23FFFFFF%22%20stop-opacity%3D%220.152%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23FFFFFF%22%20stop-opacity%3D%220%22%2F%3E%3C%2FradialGradient%3E%3CradialGradient%20id%3D%22zb1%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23D5E4FF%22%20stop-opacity%3D%220.5%22%2F%3E%3Cstop%20offset%3D%220.45%22%20stop-color%3D%22%23D5E4FF%22%20stop-opacity%3D%220.310%22%2F%3E%3Cstop%20offset%3D%220.8%22%20stop-color%3D%22%23D5E4FF%22%20stop-opacity%3D%220.080%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23D5E4FF%22%20stop-opacity%3D%220%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23F5F9FC%22%2F%3E%3Cellipse%20cx%3D%2250%25%22%20cy%3D%22-10%25%22%20rx%3D%2290%25%22%20ry%3D%2260%25%22%20fill%3D%22url(%23zb0)%22%2F%3E%3Cellipse%20cx%3D%2296%25%22%20cy%3D%22104%25%22%20rx%3D%2248%25%22%20ry%3D%2236%25%22%20fill%3D%22url(%23zb1)%22%2F%3E%3C%2Fsvg%3E&quot;); background-size: 240px 240px, 100% 100%; background-repeat: repeat, no-repeat; background-blend-mode: overlay, normal" role="group" aria-label="ジャンプの3D" tabindex="0"><div class="layer under svelte-t57znn"><!--[-1--><!--]--><!----></div> <canvas aria-hidden="true" class="svelte-t57znn"></canvas> <div class="layer over svelte-t57znn"><!--[-1--><!--]--><!----></div> <!--[0--><p class="visually-hidden svelte-t57znn">フリップとルッツの3Dを、踏切の位置と向きをそろえて見比べています。説明の文は舞台の下にあります。</p><!--]--> <!--[0--><p class="stage-status svelte-t57znn" role="status">3Dを読み込んでいます</p><!--]--></div> <p class="credit svelte-t57znn">ジャンプの動き：FS-Jump3D（CC BY-NC-SA 4.0）を変換</p></div><!----> <!--[0--><div class="below svelte-1163ub4" style="order: 2;"><!--[-1--><!--]--> <div class="start-row svelte-1163ub4"><button type="button" class="primary-button">問題を始める</button> <p class="start-note svelte-1163ub4">8問・5分ほど</p></div></div> <div class="narrow svelte-1163ub4" style="order: 3;"><div class="records-panel svelte-1czypp"><h2 class="heading svelte-1czypp">これまでの記録</h2> <p class="note svelte-1czypp">この端末のブラウザにだけ保存しています。</p> <!--[0--><p class="empty svelte-1czypp">まだ記録はありません。</p><!--]--></div><!----></div><!--]--></section><!--]--><!--astro:end--></astro-island></body></html>

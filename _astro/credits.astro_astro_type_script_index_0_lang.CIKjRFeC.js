@@ -1,0 +1,1 @@
+import{n as e}from"./bridge.Bvuv8lGT.js";function t(){let t=document.querySelector(`[data-etched]`);if(!t)return;let n=performance.now(),r=i=>{if(!t.isConnected)return;let a=e()?.etchedLength()??0;t.textContent=Math.round(a).toLocaleString(`ja-JP`),i-n<12e3&&requestAnimationFrame(r)};requestAnimationFrame(r)}document.addEventListener(`astro:page-load`,t);

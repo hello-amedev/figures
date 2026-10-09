@@ -1,0 +1,1 @@
+import{r as e}from"./bridge.Bvuv8lGT.js";import{n as t}from"./floorStage.11jBCgBY.js";document.addEventListener(`click`,n=>{let r=n.target?.closest(`[data-fband] [data-go]`);if(!r)return;let i=r.dataset.go,a=i===`total`?document.querySelector(`main [data-shot="door"]`):document.querySelector(`main [data-part="${i}"]`);a&&e(a,t(a))});

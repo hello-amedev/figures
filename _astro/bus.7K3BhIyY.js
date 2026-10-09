@@ -1,0 +1,1 @@
+var e=new EventTarget,t=new Map;function n(n,r){t.set(n,r),e.dispatchEvent(new CustomEvent(n,{detail:r}))}function r(n,r,i=!1){let a=e=>r(e.detail);return e.addEventListener(n,a),i&&t.has(n)&&r(t.get(n)),()=>e.removeEventListener(n,a)}function i(e){return t.get(e)}export{i as n,r,n as t};

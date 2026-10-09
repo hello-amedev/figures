@@ -1,0 +1,1 @@
+function e(e,t,n){let r=n===`L`?-1:1,i=t.x*r,a=t.y*r,o=t.z*r,s=Math.hypot(e.x,e.y,e.z)||1,c=e.x/s,l=e.y/s,u=e.z/s,d=i*c+a*l+o*u;i-=d*c,a-=d*l,o-=d*u;let f=Math.hypot(i,a,o)||1,p=Math.min(1,Math.max(-1,-a/f));return Math.asin(p)*180/Math.PI}function t(e){return e>=0?`outside`:`inside`}export{t as n,e as t};
