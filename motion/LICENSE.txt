@@ -1,0 +1,7 @@
+このフォルダ(public/motion/)のファイルは、FS-Jump3D(CC BY-NC-SA 4.0)を改変して作ったものです。
+このフォルダの中身は、同じ CC BY-NC-SA 4.0(表示 - 非営利 - 継承 4.0 国際)で公開します。
+
+ライセンスの本文: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.ja
+ライセンスの概要: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ja
+
+出典と、元のデータに加えた変更は README.md に書いてあります。

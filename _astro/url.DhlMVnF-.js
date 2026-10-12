@@ -1,0 +1,1 @@
+function e(e){return`/figures${e.startsWith(`/`)?e:`/${e}`}`}export{e as t};
