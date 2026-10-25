@@ -1,0 +1,1 @@
+import{t as e}from"./i18n.Cm541Hf-.js";function t(t){return e().chapters[t].label}export{t};
