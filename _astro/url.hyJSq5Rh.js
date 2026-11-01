@@ -1,0 +1,1 @@
+import{i as e,n as t,r as n}from"./i18n.C4jMG8o7.js";function r(e){let n=e.startsWith(`/`)?e:`/${e}`;return`${t}${n}`}function i(r,i=``,a=``){let o=r===t||r.startsWith(`${t}/`),s=o&&r.slice(t.length)||`/`;return`${n[e]}${s}${o?i+a:``}`}export{r as n,i as t};

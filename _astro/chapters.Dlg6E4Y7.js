@@ -1,0 +1,1 @@
+import{t as e}from"./i18n.C4jMG8o7.js";function t(t){return e().chapters[t].label}export{t};
